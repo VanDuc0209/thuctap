@@ -1,7 +1,7 @@
 var MongoClient = require('mongodb').MongoClient;
 require('dotenv').config();
-url = process.env.URL_DB;
-db_name = process.env.DB_NAME;
+url = process.env.URL_DB || 'mongodb://localhost:27017';
+db_name = process.env.DB_NAME || 'thuctap';
 console.log(db_name)
 console.log(url)
 
