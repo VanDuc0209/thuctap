@@ -1,10 +1,10 @@
 # Server insert Json to MongoDB
 # API
-### Insert cookie 
+### Insert cookie (post)
 ```
 /mongo/cookie
 ```
-### Insert tracking
+### Insert tracking (post)
 ```
 /mongo/tracking
 ```
